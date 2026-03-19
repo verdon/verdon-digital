@@ -191,15 +191,16 @@ export default function VerdonAsciiArt() {
       {/* Links */}
       <div style={{
         position: 'absolute',
-        bottom: '20px',
-        left: '20px',
+        bottom: '50px',
+        left: '50px',
         color: '#00ff41',
         fontFamily: 'Courier New, monospace',
         fontSize: '14px',
         textShadow: '0 0 10px #00ff41',
         display: 'flex',
         flexDirection: 'column',
-        gap: '8px'
+        gap: '8px',
+        paddingBottom: '20px'
       }}>
         <div>
           <span>managing director @ </span>
