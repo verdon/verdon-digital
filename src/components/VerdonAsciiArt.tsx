@@ -188,7 +188,7 @@ export default function VerdonAsciiArt() {
         <Scene />
       </Canvas>
       
-      {/* Website */}
+      {/* Links */}
       <div style={{
         position: 'absolute',
         bottom: '20px',
@@ -196,9 +196,45 @@ export default function VerdonAsciiArt() {
         color: '#00ff41',
         fontFamily: 'Courier New, monospace',
         fontSize: '14px',
-        textShadow: '0 0 10px #00ff41'
+        textShadow: '0 0 10px #00ff41',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '8px'
       }}>
-        verdon.digital
+        <div>
+          <span>managing director @ </span>
+          <a 
+            href="https://yuze.uk"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: '#00ff41',
+              textDecoration: 'none',
+              cursor: 'pointer'
+            }}
+            onMouseEnter={(e) => e.currentTarget.style.textDecoration = 'underline'}
+            onMouseLeave={(e) => e.currentTarget.style.textDecoration = 'none'}
+          >
+            yuze
+          </a>
+        </div>
+        <div>
+          <span>github @ </span>
+          <a 
+            href="https://github.com/verdon"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: '#00ff41',
+              textDecoration: 'none',
+              cursor: 'pointer'
+            }}
+            onMouseEnter={(e) => e.currentTarget.style.textDecoration = 'underline'}
+            onMouseLeave={(e) => e.currentTarget.style.textDecoration = 'none'}
+          >
+            verdon
+          </a>
+        </div>
       </div>
 
     </div>
