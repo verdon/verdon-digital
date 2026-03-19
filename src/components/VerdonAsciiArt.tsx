@@ -191,8 +191,8 @@ export default function VerdonAsciiArt() {
       {/* Links */}
       <div style={{
         position: 'absolute',
-        bottom: '50px',
-        left: '50px',
+        bottom: '30px',
+        left: '30px',
         color: '#00ff41',
         fontFamily: 'Courier New, monospace',
         fontSize: '14px',
